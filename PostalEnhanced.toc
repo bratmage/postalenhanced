@@ -1,0 +1,45 @@
+## Interface: 30300
+## Version: 4.0.0
+## Title: |cffFFACD8Postal|r Enhanced
+## Author: |cff5bcefa/|cff78c7ed/|cff95c0e4B|cffb2b9dbr|cffcfb2d2a|cffecabc9t|cfff6b5c2m|cfff8c6cca|cfffad7d6g|cfffce8e0e|cffffffff/|cffffffff/,|r Xinhuan
+## X-Credits: Ammo, Rabbit, Grennon, Mikk
+## X-Category: Mail
+## Notes: |cff5bcefa/|cff78c7ed/|cff95c0e4B|cffb2b9dbr|cffcfb2d2a|cffecabc9t|cfff6b5c2m|cfff8c6cca|cfffad7d6g|cfffce8e0e|cffffffff/|cffffffff/|r Enhanced Mailbox Support
+## Notes-ruRU: Postal Enhanced: Расширенная поддержка почтового ящика
+## Notes-frFR: Postal Enhanced: améliorations diverses de l'interface d'envoi/réception de courriers.
+## Notes-esES: Postal Enhanced: soporte mejorado para el buzon
+## Notes-zhTW: Postal Enhanced: 強化信箱功能。
+## Notes-zhCN: Postal Enhanced: 增强信箱功能
+## OptionalDeps: Ace3
+## SavedVariables: PostalEnhancedDB, Postal3DB
+## X-Curse-Packaged-Version: v4.0.0
+## X-Curse-Project-Name: Postal Enhanced
+## X-Curse-Project-ID: postal
+## X-Curse-Repository-ID: wow/postal/mainline
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Mailbox: true
+## X-Email: xinhuan AT gmail DOT com
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceHook-3.0\AceHook-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+#@end-no-lib-strip@
+
+Localization.lua
+PostalEnhanced.lua
+
+Modules\Express.lua
+Modules\OpenAll.lua
+Modules\Wire.lua
+Modules\Select.lua
+Modules\TradeBlock.lua
+Modules\Rake.lua
+Modules\BlackBook.lua
+Modules\DoNotWant.lua
+Modules\LetterArchive.lua
