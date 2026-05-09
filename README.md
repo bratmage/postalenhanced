@@ -10,3 +10,11 @@ Backported from Cata version and then upgraded for RP purposes.
 - BlackBooks: Contact organizations
 - Open All feature with multiple opening options
 - Lots more.
+
+## Install Guide
+- At the top of the page, click Code > Download Zip
+- This downloads PostalEnhanced-main.zip
+- Open this zip, inside is a folder called PostalEnhanced-main
+- Drag that folder into your WoW\Interface\Addons folder
+- Delete Postal, if you have it
+- Launch. If it does not load, rename the folder to PostalEnhanced
